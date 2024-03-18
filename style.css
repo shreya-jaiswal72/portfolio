@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:sans-serif;
+}
+ /* Here body section Start  */
+body {
+    color: aliceblue;
+}
+/* Here body section  End  */
+
+/* Here header section Start  */
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    display: flex;
+    justify-content: space-around;
+    font-weight:300;
+    font-size: 20px;
+    background-color: rgb(1, 1, 95);
+    color: white;
+}
+
+.navbar {
+    display: inline-block;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+ /* Here Start the  work of achor tag  */
+.header a {
+    color: white; 
+    text-decoration: none;
+  }
+ /* Here End the  work of achor tag  */
+
+
+  /* Here header section End  */
+
