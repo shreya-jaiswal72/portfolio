@@ -7,6 +7,7 @@
  /* Here body section Start  */
 body {
     color: aliceblue;
+    
 }
 /* Here body section  End  */
 
@@ -16,29 +17,46 @@ body {
     top: 0;
     left: 0;
     width: 100vw;
-    padding: 20px 10%;
+    padding:2vw;
     display: flex;
     justify-content: space-around;
     font-weight:300;
-    font-size: 20px;
-    background-color: rgb(1, 1, 95);
+    font-size: 2vw;
+    background-color: #192655;
     color: white;
 }
 
 .navbar {
     display: inline-block;
-    width: 50%;
+    width: 50vw;
     display: flex;
     justify-content: space-between;
     
 }
  /* Here Start the  work of achor tag  */
 .header a {
-    color: white; 
+    color: aliceblue; 
     text-decoration: none;
   }
  /* Here End the  work of achor tag  */
 
-
   /* Here header section End  */
 
+  /* Here Home section start  */
+  .Home{
+    background-color: #0C356A;
+    height: 100vh;
+    width: 100vw;
+    padding-top: 20vw;
+    padding-left: 10vw;
+     
+  }
+  .Home h1 {
+    font-size: 4vw;
+    font-weight: 50vw;
+  }
+  .Home strong {
+    color: #00A9FF;
+  }
+   /* Here Home section End  */
+  
